@@ -50,7 +50,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'HireSmart_Project.urls'
+ROOT_URLCONF = "hiresmart.urls"
 
 TEMPLATES = [
     {
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'HireSmart_Project.wsgi.application'
+WSGI_APPLICATION = "hiresmart.wsgi.application"
 
 
 # Database
