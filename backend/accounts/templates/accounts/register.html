@@ -1,15 +1,12 @@
-<!DOCTYPE html>
-<html>
+{% extends "base.html" %}
 
-<head>
+{% block title %}
+Register
+{% endblock %}
 
-    <title>Register</title>
+{% block content %}
 
-</head>
-
-<body>
-
-<h2>User Registration</h2>
+<h2 class="mb-4">Create Account</h2>
 
 <form method="POST">
 
@@ -17,14 +14,10 @@
 
     {{ form.as_p }}
 
-    <button type="submit">
-
+    <button class="btn btn-primary">
         Register
-
     </button>
 
 </form>
 
-</body>
-
-</html>
+{% endblock %}
